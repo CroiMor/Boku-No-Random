@@ -21,7 +21,7 @@ section{
     text-align: center;
 }
 
-.container{
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,7 +30,6 @@ section{
 
 .margin-top10{
     margin-top: 10px;
-    
 }
 
 #poder{
