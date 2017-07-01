@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Boku no Random</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <script src="js/PowerController.js"></script>
+        
+    </head>
+        
+    <body ng-app="PowerRandomApp">
+        <div ng-controller="PowerController" class="container">
+            <header class="center margin-top10">
+                <img src="img/logo.png" alt="Boku No Random">
+            </header>
+
+            <section class="margin-top10">
+                <div class="center">
+                    <h1 id="poder" class="center">{{poderAtual == '' ? "Boku no Random" : poderAtual}}</h1>
+                </div>
+                <div class="center">
+                    <button type="button" ng-click="gerarPoder()" id="btn-random">Gerar Poder</button>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
