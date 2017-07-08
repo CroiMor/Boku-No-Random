@@ -16,12 +16,24 @@
                 <img src="img/logo.png" alt="Boku No Random">
             </header>
 
-            <section class="margin-top10">
+            <section>
                 <div class="center">
                     <h1 id="poder" class="center">{{poderAtual == '' ? "Boku no Random" : poderAtual}}</h1>
                 </div>
                 <div class="center">
                     <button type="button" ng-click="gerarPoder()" id="btn-random">Gerar Poder</button>
+                </div>
+                <div align="right" valign="middle" class="addpoder">
+                    <table>
+                        <tr>
+                            <td>
+                                <input ng-model="textPower" type="text" name="Poder" placeholder="Insira um Poder" >
+                            </td>
+                            <td>
+                                <button type="button" ng-click="adicionaPoder()" id="btn-ok"><img src="img/plus.png" alt="Enviar"></button>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
             </section>
         </div>

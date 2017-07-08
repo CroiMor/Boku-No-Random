@@ -14,7 +14,7 @@ button{
 }
 
 section{
-    width: 900px;
+    width: 100%;
 }
 
 .center {
@@ -32,6 +32,51 @@ section{
     margin-top: 10px;
 }
 
+.addpoder input{
+    background-color: #ff0000;
+    width: 120px;
+    height: 35px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Fjalla One', sans-serif;
+    transition: 1s all;
+    padding-left: 6px;
+}
+
+.addpoder input:focus{
+    width: 250px;
+}
+
+.addpoder input:focus{
+    width: 250px;
+}
+
+#btn-ok img{
+    text-align: center;
+    width: 75%;
+    height: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}
+
+
+::-moz-placeholder {
+   color:    #aaa;
+   opacity:  1;
+   font-style: italic;
+
+}
+
+
+::-webkit-input-placeholder {
+    color:    #aaa;
+    font-style: italic;
+}
+
 #poder{
     font-size: 70px;
     color: #fff;
@@ -39,7 +84,7 @@ section{
     background-color: #EE0002;
     border-radius: 5px;
     max-width: 600px;
-    margin: 10% auto;
+    margin: 5% auto;
     text-transform: uppercase;
 }
 
@@ -54,9 +99,22 @@ section{
     
 }
     #btn-random:hover {
-        background-color: #fff300;
-        color: #000;
-        border: 2px solid #000;
+    background-color: #fff300;
+    color: #000;
+    border: 2px solid #000;
         
-    }
+}
 
+#btn-ok{
+    background-color: #ff0000;
+    padding: 0px;
+    color: #fff;
+    width: 43px;
+    height: 37px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-family: 'Fjalla One', sans-serif;
+    margin-right: 40px;
+}

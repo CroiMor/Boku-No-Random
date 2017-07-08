@@ -25,4 +25,9 @@ PowerRandomApp.controller('PowerController', function($scope){
         else
             $scope.poderAtual = poderes[numeroRandomizado]
     }
+
+    $scope.adicionaPoder = function(){
+        console.log($scope.textPower);
+        $scope.textPower = "";
+    }
 })
